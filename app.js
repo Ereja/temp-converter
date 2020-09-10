@@ -51,6 +51,10 @@ function kelvinToCelciusAndFahrenheit() {
 
 //event listeners are looking for specific events (scroll, click, key press and so on. In this case its input event
 
+function main() {
 celciusInput.addEventListener("input", celciusToFahrenheitAndKelvin);
 fahrenheitInput.addEventListener("input", fahrenheitToCelciusAndKelvin);
 kelvinInput.addEventListener("input", kelvinToCelciusAndFahrenheit);
+}
+
+main();
